@@ -1,0 +1,189 @@
+body {
+    background-color: aliceblue;
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+header {
+    background: rgb(65, 3, 109);
+    color: rgb(255, 255, 255);
+    border-bottom: green 5px solid;
+    padding-top: 30px;
+    min-height: 100px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header a {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: wavy;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header .highlight {
+    color: rgb(255, 241, 41);
+}
+
+/*nav bar*/
+
+header .current a {
+    color: rgb(248, 227, 37);
+    font-weight: 900;
+}
+
+header a:hover {
+    color: aliceblue;
+    font-weight: 900;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/*hero*/
+#hero {
+    background: url('images/high-res charlotte.jpg') no-repeat;
+    min-height: 600px;
+    text-align: center;
+    background-position: center;
+    color: aliceblue;
+    background-size: cover;
+}
+
+#hero h2 {
+    font-size: 100px;
+    margin-top: 100px;
+    text-shadow: 3px 3px #000;
+}
+
+#hero p {
+    font-size: 30px;
+    text-shadow: 3px 3px #000;
+}
+
+/*boxes*/
+
+#boxes {
+    margin-top: 20px;
+}
+
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 10px;
+}
+
+
+#boxes .box img {
+    width: 90px;
+}
+
+/*main col*/
+article#main-col {
+    float: left;
+    width: 50%;
+    margin-left: 300px;
+}
+
+article#main-col img {
+    width: 700px;
+}
+
+/*this to do list*/
+ul#things li {
+    list-style: none;
+    padding: 20px;
+}
+
+/*contact*/
+
+input[type=text] {
+    width: 80%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+#message {
+    width: 80%;
+    height: 500px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+.button {
+    background: green;
+    border: none;
+    color: aliceblue;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contactbox {
+    border-radius: 5px;
+    background-color: #e69ced;
+    padding: 20px;
+}
+
+/* footer*/
+footer {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: rgb(0, 72, 134);
+    background-color: #9be8dc;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer img {
+    width: 50px;
+    height: 60px;
+}
